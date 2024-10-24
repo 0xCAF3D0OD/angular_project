@@ -1,0 +1,5 @@
+gnupg
+wget
+curl
+bash
+libgbm-dev
