@@ -1,13 +1,13 @@
-package com.example.spring_boot_docker;
+package com.example.angular_project;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class SpringBootDockerApplication {
+public class AngularProjectApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(SpringBootDockerApplication.class, args);
+		SpringApplication.run(AngularProjectApplication.class, args);
 	}
 
 }

@@ -1,7 +1,7 @@
 # Read Me First
 The following was discovered as part of building this project:
 
-* The original package name 'com.example.spring-boot-docker' is invalid and this project uses 'com.example.spring_boot_docker' instead.
+* The original package name 'com.example.angular-project' is invalid and this project uses 'com.example.angular_project' instead.
 
 # Getting Started
 

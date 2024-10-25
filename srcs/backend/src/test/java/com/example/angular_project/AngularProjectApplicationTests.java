@@ -1,10 +1,10 @@
-package com.example.spring_boot_docker;
+package com.example.angular_project;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
 @SpringBootTest
-class SpringBootDockerApplicationTests {
+class AngularProjectApplicationTests {
 
 	@Test
 	void contextLoads() {
