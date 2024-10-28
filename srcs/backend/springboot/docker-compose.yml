@@ -1,0 +1,7 @@
+version: '3.8'
+
+services:
+  spring-boot:
+    image: dinokeke/spring-docker:0.0.1
+    ports:
+      - "3000:3000"
