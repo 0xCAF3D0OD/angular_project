@@ -4,37 +4,33 @@ services:
   backend:
     build:
       context: .
-      dockerfile: backend.Dockerfile
-    volumes:
-      - ./srcs/backend/:/app/backend
     networks:
       - app-network
     ports:
       - "3000:3000"
 
-  frontend:
-    build:
-      context: .
-      dockerfile: frontend.Dockerfile
-    volumes:
-      - ./srcs/frontend:/app/frontend/
-    networks:
-      - app-network
-    depends_on:
-      - backend
-
-  nginx:
-    build:
-      context: .
-      dockerfile: nginx.Dockerfile
-    networks:
-      - app-network
-    ports:
-      - "8080:80"
-    depends_on:
-      - frontend
+#  frontend:
+#    build:
+#      context: .
+#      dockerfile: frontend.Dockerfile
+#    volumes:
+#      - ./srcs/frontend:/app/frontend/
+#    networks:
+#      - app-network
+#    depends_on:
+#      - backend
+#
+#  nginx:
+#    build:
+#      context: .
+#      dockerfile: nginx.Dockerfile
+#    networks:
+#      - app-network
+#    ports:
+#      - "8080:80"
+#    depends_on:
+#      - frontend
 
 networks:
   app-network:
     driver: bridge
-x
